@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: motdfilter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\dlls" /I "..\common" /I "..\pm_shared" /I "..\engine" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MOTDFILTER_EXPORTS" /Fp"Release/motdfilter.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\SourceWar\hlgame\motdfilter\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/motdfilter.pdb" /machine:I386 /out:"Release/motdfilter.dll" /implib:"Release/motdfilter.lib" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20C.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+motdfilter.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
